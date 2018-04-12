@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.text-center {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.overview {
+  font-family: 'Hi Melody', cursive;
+  font-size: 180%;
+}
+
+.posterPath {
+  margin-top: 2%;
+  height: 230px;
+}

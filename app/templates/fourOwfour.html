@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block styles %}
+  {{ super() }}
+  <link rel='stylesheet' href="{{url_for('static',filename='css/fof.css')}}">
+  <link href="https://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet">
+{% endblock %}
+{%block content%}
+  <div style="font-family: 'Henny Penny', cursive;font-size:550%">OOPS!</div>
+  <div class='fof' style="font-family: 'Henny Penny', cursive;font-size:550%">PAGE NOT FOUND</div>
+{% endblock %}
